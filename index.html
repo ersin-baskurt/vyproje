@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Veri Yapıları Arama Motoru</title>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Arama Motoru Uygulaması</h1>
+			<div class="header-right">
+				Veri Yapıları - 2019
+			</div>
+		</header>
+		<main>
+			<div class="arama-alani">
+				<h2 class="arama-baslik">Dosyada arama yapın:</h2>
+				<i>Örn : veri, program, data, veri tabanı ...</i>
+				<form id="aramaFormu">
+					<div class="satir">
+						<div class="sutun">
+							<input class="arama-kutusu" type="text" name="kelime" placeholder="bir şeyler yazın..." id="araInput">
+						</div>
+						<div class="sutun sabit-sutun">
+							<button type="submit" class="arama-butonu" id="araButton">&nbsp;</button>
+						</div>
+					</div>
+				</form>
+
+				<div class="sonuc-listesi" id="sonucListesi">
+
+				</div>
+			</div>
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+
+</html>
